@@ -6,7 +6,6 @@ import { ChevronDown, ChevronRight, Calendar } from "lucide-react"
 import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { Github, Linkedin, Mail, Twitter } from "lucide-react"
-import { Carousel, CarouselContent, CarouselItem, type CarouselApi } from "@/components/ui/carousel"
 
 interface ExperienceItem {
   id: string
@@ -18,7 +17,6 @@ interface ExperienceItem {
   dates: string
   nested?: ExperienceItem[]
   isProjectCategory?: boolean
-  cookingImages?: string[]
 }
 
 const workExperience: ExperienceItem[] = [
@@ -174,85 +172,11 @@ const education: ExperienceItem[] = [
   },
 ]
 
-const random: ExperienceItem[] = [
-  {
-    id: "cooking",
-    title: "cooking",
-    organization: "Personal Interest",
-    logo: "/images/cooking/hudson-kitchen.jpeg",
-    description:
-      "i'm usually typing at a computer or on meetings, so i use cooking as a creative outlet and something that takes my mind off of work. i'm pretty good haha.",
-    dates: "Always",
-    cookingImages: [
-      "/images/cooking/rack-of-lamb.jpeg",
-      "/images/cooking/shakshuka.jpeg",
-      "/images/cooking/fried-rice.jpeg",
-      "/images/cooking/puff-pastries.jpeg",
-      "/images/cooking/quiche.jpeg",
-    ],
-  },
-]
 
 const categories = {
-  "work experience": workExperience,
+  "locked in": workExperience,
   projects: projects,
-  education: education,
-  random: random,
-}
-
-function CookingCarousel({ images }: { images: string[] }) {
-  const [api, setApi] = useState<CarouselApi>()
-  const [current, setCurrent] = useState(0)
-
-  useEffect(() => {
-    if (!api) {
-      return
-    }
-
-    // Auto-play functionality
-    const interval = setInterval(() => {
-      api.scrollNext()
-    }, 4000) // 4 seconds for slow transition
-
-    setCurrent(api.selectedScrollSnap())
-
-    api.on("select", () => {
-      setCurrent(api.selectedScrollSnap())
-    })
-
-    return () => clearInterval(interval)
-  }, [api])
-
-  return (
-    <div className="w-full max-w-md mx-auto mt-4">
-      <Carousel setApi={setApi} className="w-full">
-        <CarouselContent>
-          {images.map((image, index) => (
-            <CarouselItem key={index}>
-              <div className="relative aspect-square w-full overflow-hidden rounded-lg">
-                <Image
-                  src={image || "/placeholder.svg"}
-                  alt={`Cooking photo ${index + 1}`}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-      </Carousel>
-      <div className="flex justify-center mt-2 space-x-1">
-        {images.map((_, index) => (
-          <div
-            key={index}
-            className={`h-1.5 w-1.5 rounded-full transition-colors ${
-              index === current ? "bg-foreground" : "bg-muted-foreground/30"
-            }`}
-          />
-        ))}
-      </div>
-    </div>
-  )
+  "learning": education,
 }
 
 function ExperienceCard({ item, isNested = false }: { item: ExperienceItem; isNested?: boolean }) {
@@ -317,11 +241,6 @@ function ExperienceCard({ item, isNested = false }: { item: ExperienceItem; isNe
             >
               <div className="pt-0 px-3 pb-2">
                 <p className="text-sm text-muted-foreground whitespace-pre-line ml-11">{item.description}</p>
-                {item.cookingImages && (
-                  <div className="ml-11">
-                    <CookingCarousel images={item.cookingImages} />
-                  </div>
-                )}
                 {item.nested && (
                   <div className="mt-4 space-y-2">
                     {item.nested.map((nestedItem) => (
@@ -377,7 +296,7 @@ function FloatingSocialBar() {
 }
 
 export default function Portfolio() {
-  const [activeTab, setActiveTab] = useState<keyof typeof categories>("work experience")
+  const [activeTab, setActiveTab] = useState<keyof typeof categories>("locked in")
 
   return (
     <div className="min-h-screen bg-background">
