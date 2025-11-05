@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { ChevronDown, ChevronRight, Calendar } from "lucide-react"
 import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Github, Linkedin, Mail, Twitter, FileText } from "lucide-react"
 
 interface ExperienceItem {
   id: string
@@ -26,8 +26,7 @@ const workExperience: ExperienceItem[] = [
     organization: "UCSD",
     logo: "/images/ucsd-logo.png",
     role: "Researcher",
-    description:
-      "Researching the integration of AI in novice CS education under PhD Student Annapurna Vadaparty and Professor Leo Porter.",
+    description: "Researching AI integration in novice CS education under PhD Student Annapurna Vadaparty and Professor Leo Porter.",
     dates: "June 2025 - present",
   },
   {
@@ -36,8 +35,7 @@ const workExperience: ExperienceItem[] = [
     organization: "SDUSD",
     logo: "/images/swear-logo.png",
     role: "Outreach Representative",
-    description:
-      "Working with peers, advisors, and district board members to improve student mental health with AI and student outreach.",
+    description: "Improving student mental health with AI and student outreach initiatives.",
     dates: "May 2025 - present",
   },
   {
@@ -55,8 +53,7 @@ const workExperience: ExperienceItem[] = [
         organization: "Henry AI Club",
         logo: "/images/henry-ai-logo.png",
         role: "Founder + President",
-        description:
-          "Created + growing an AI club at my high school to integrate AI literacy and prompt engineering into our curriculum. Bringing pizza to meetings attracts lotssss of members!",
+        description: "Integrating AI literacy and prompt engineering into high school curriculum.",
         dates: "May 2025 - present",
       },
       {
@@ -65,8 +62,7 @@ const workExperience: ExperienceItem[] = [
         organization: "CS Club",
         logo: "/images/patrick-henry-shield.png",
         role: "Vice President",
-        description:
-          "Transforming a historically dead club into a vibrant community of student builders at my high school.",
+        description: "Building a community of student builders and developers.",
         dates: "May 2025 - present",
       },
       {
@@ -75,8 +71,7 @@ const workExperience: ExperienceItem[] = [
         organization: "Henry Model UN",
         logo: "/images/patrick-henry-emblem.png",
         role: "Under Secretariat for Outreach",
-        description:
-          "Designing an AI-powered conference management system and recruiting additional high schools to our conference.",
+        description: "Designing AI-powered conference management system and expanding conference participation.",
         dates: "June 2025 - present",
       },
     ],
@@ -98,8 +93,7 @@ const projects: ExperienceItem[] = [
         title: "Netwrxk",
         organization: "netwrxk.com",
         logo: "/images/ucsd-seal.png",
-        description:
-          "Worked with two UCSD Data Science students to match students with professors and labs based on academia @UCSD engineering",
+        description: "Matching students with professors and labs at UCSD.",
         dates: "April 2025 - May 2025",
       },
       {
@@ -107,8 +101,7 @@ const projects: ExperienceItem[] = [
         title: "FirstIntel",
         organization: "TritonHacks",
         logo: "/images/tritonhacks-logo.png",
-        description:
-          "Fine-tuned a CV model to count the number of people inside a building and relay that information to first responders via SMS.\nAwards: TritonHacks finalist",
+        description: "CV model to count building occupancy and alert first responders via SMS. TritonHacks finalist.",
         dates: "2025",
       },
       {
@@ -116,8 +109,7 @@ const projects: ExperienceItem[] = [
         title: "SchoolAssess",
         organization: "schoolassess.vercel.app",
         logo: "/images/henry-ai-logo.png",
-        description:
-          "Help schools estimate the value of their assets to submit to insurance in case of shooting or natural disaster.",
+        description: "Helping schools estimate asset values for insurance claims.",
         dates: "May 2025",
       },
     ],
@@ -136,8 +128,7 @@ const projects: ExperienceItem[] = [
         title: "Events Aggregator",
         organization: "Henry AI Club",
         logo: "/images/henry-ai-logo.png",
-        description:
-          "Scrape high school Instagram accounts to identify upcoming events and input them into an interactive + filterable centralized calendar.",
+        description: "Scraping high school Instagram accounts to create a centralized events calendar.",
         dates: "Coming Soon",
       },
       {
@@ -145,8 +136,7 @@ const projects: ExperienceItem[] = [
         title: "Voice Journal",
         organization: "Henry AI Club",
         logo: "/images/henry-ai-logo.png",
-        description:
-          "Allow users to record 60 second audio clips of them talking about their mood and AI will identify trends and generate a shareable graphic for Snapchat + Instagram.\nBusiness Model: B2B2C with therapists + school psychologists",
+        description: "AI-powered mood tracking via voice recordings with trend analysis and shareable graphics. B2B2C model.",
         dates: "Coming Soon",
       },
     ],
@@ -172,11 +162,55 @@ const education: ExperienceItem[] = [
   },
 ]
 
+const research: ExperienceItem[] = [
+  {
+    id: "isef-2026",
+    title: "ISEF 2026",
+    organization: "Regeneron ISEF",
+    logo: "/images/ucsd-logo.png",
+    role: "Presenter",
+    description: "Presenting research at the International Science and Engineering Fair in Phoenix, Arizona.",
+    dates: "May 9-15, 2026",
+  },
+  {
+    id: "iticse-2026",
+    title: "ITiCSE 2026",
+    organization: "ACM ITiCSE",
+    logo: "/images/ucsd-logo.png",
+    role: "Submitting",
+    description: "Submitting research to Innovation and Technology in Computer Science Education conference in Madrid, Spain.",
+    dates: "July 13-15, 2026",
+  },
+  {
+    id: "respect-2026",
+    title: "RESPECT 2026",
+    organization: "ACM SIGCSE",
+    logo: "/images/ucsd-logo.png",
+    role: "Submitting",
+    description: "Submitting research to Research on Equity and Sustained Participation in Engineering, Computing, and Technology conference in Chicago.",
+    dates: "June 8-11, 2026",
+  },
+]
+
+const speeches: ExperienceItem[] = [
+  {
+    id: "speeches-placeholder",
+    title: "Speeches",
+    organization: "Public Speaking",
+    logo: "/images/patrick-henry-shield.png",
+    description: "Public speaking engagements and presentations",
+    dates: "2025-2026",
+    isProjectCategory: true,
+    nested: [],
+  },
+]
 
 const categories = {
   "locked in": workExperience,
   projects: projects,
   "learning": education,
+  research: research,
+  speeches: speeches,
 }
 
 function ExperienceCard({ item, isNested = false }: { item: ExperienceItem; isNested?: boolean }) {
@@ -306,17 +340,25 @@ export default function Portfolio() {
           <div className="flex-1">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">hey, i'm hudson</h1>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              fifteen. high school sophomore. research @ ucsd. patrick henry high school '28. building saas.
+              fifteen. high school sophomore. research @ ucsd. patrick henry high school '28. building saas. presenting @ isef.
             </p>
 
             {/* About Section - moved inside header */}
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">about</h2>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed mb-4">
                 super curious about how computers + ai are improving our lives. love thinking about innovative ideas,
                 collaborating with researchers, teaching others, using generative ai, and talking about startups. i
                 focus on how interactive ai tools will transform what and how we should teach and address mental health.
               </p>
+              <a
+                href="/cv-11-25.pdf"
+                download
+                className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <FileText className="h-4 w-4" />
+                Download CV
+              </a>
             </div>
           </div>
           <div className="w-48 h-48 relative flex-shrink-0">
