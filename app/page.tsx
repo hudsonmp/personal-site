@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ChevronDown, ChevronRight, Calendar } from "lucide-react"
 import Image from "next/image"
@@ -25,8 +25,8 @@ const workExperience: ExperienceItem[] = [
     title: "CS Education Lab UCSD",
     organization: "UCSD",
     logo: "/images/ucsd-logo.png",
-    role: "Researcher",
-    description: "Researching AI integration in novice CS education under PhD Student Annapurna Vadaparty and Professor Leo Porter.",
+    role: "Research Assistant",
+    description: "Conducting research on computer science education and the integration of human-AI interaction into learning experiences. Researching AI integration in novice CS education under PhD Student Annapurna Vadaparty and Professor Leo Porter.",
     dates: "June 2025 - present",
   },
   {
@@ -89,19 +89,51 @@ const projects: ExperienceItem[] = [
     isProjectCategory: true,
     nested: [
       {
-        id: "netwrxk",
-        title: "Netwrxk",
-        organization: "netwrxk.com",
-        logo: "/images/ucsd-seal.png",
-        description: "Matching students with professors and labs at UCSD.",
-        dates: "April 2025 - May 2025",
+        id: "syntra",
+        title: "Syntra",
+        organization: "Cerebral Valley",
+        logo: "/images/cerebral-valley-logo.png",
+        description: "AI-powered design tool integration. Top 6 finalist at Gemini AI Hackathon Cerebral Valley. Built with team focusing on bridging code and design workflows.",
+        dates: "2025",
+      },
+      {
+        id: "arxai",
+        title: "ArxAI",
+        organization: "SDx",
+        logo: "/images/henry-ai-logo.png",
+        description: "Launches deep research with Parallel AI and Claude's Agentic SDK. System for processing and annotating research papers with AI-powered analysis, highlighting relevant sections, and storing annotated PDFs in Supabase storage buckets.",
+        dates: "October 2025",
+      },
+      {
+        id: "turingvault",
+        title: "TuringVault",
+        organization: "CipherHacks",
+        logo: "/images/henry-ai-logo.png",
+        description: "AI-powered security analysis tool for GitHub repositories. Identifies vulnerabilities in AI-assisted code using GPT-5 Reasoning. Evaluates files for common security risks (SQL injection, XSS, hardcoded secrets) and provides targeted recommendations with code snippets and explanations. Best Design winner at CipherHacks '25.",
+        dates: "October-November 2025",
+      },
+      {
+        id: "events",
+        title: "Events Aggregator",
+        organization: "Henry AI Club",
+        logo: "/images/henry-ai-logo.png",
+        description: "Automated Instagram scraper that downloads and stores content from Patrick Henry High School Instagram accounts in Supabase. Features dual mode operation (initialization vs hourly updates), caption storage, smart content filtering, and organized storage buckets. Runs automatically every hour via GitHub Actions.",
+        dates: "2025",
+      },
+      {
+        id: "prez-challenge",
+        title: "Lesson Plan Generator",
+        organization: "prez-challenge",
+        logo: "/images/henry-ai-logo.png",
+        description: "AI-powered web application that transforms textbook PDFs into comprehensive, interactive lesson plans for teachers using OpenAI's GPT-4. Features customizable duration (7, 14, or 30 days), interactive calendar view, comprehensive lesson plans with student notes, review questions, mini-quizzes with answer keys, and educational standards references.",
+        dates: "2025",
       },
       {
         id: "firstintel",
         title: "FirstIntel",
         organization: "TritonHacks",
         logo: "/images/tritonhacks-logo.png",
-        description: "CV model to count building occupancy and alert first responders via SMS. TritonHacks finalist.",
+        description: "Computer vision model using YOLOv8 with DeepSORT to track people entering/exiting buildings via security camera footage. Fine-tuned YOLO-v8 on a Kaggle dataset of 400+ doors to recognize doorways. Automatically alerts first responders via SMS/Twilio when crisis occurs, providing real-time building occupancy data to help first responders execute faster, safer rescues.",
         dates: "2025",
       },
       {
@@ -123,14 +155,6 @@ const projects: ExperienceItem[] = [
     dates: "2025",
     isProjectCategory: true,
     nested: [
-      {
-        id: "events-aggregator",
-        title: "Events Aggregator",
-        organization: "Henry AI Club",
-        logo: "/images/henry-ai-logo.png",
-        description: "Scraping high school Instagram accounts to create a centralized events calendar.",
-        dates: "Coming Soon",
-      },
       {
         id: "voice-journal",
         title: "Voice Journal",
@@ -164,19 +188,28 @@ const education: ExperienceItem[] = [
 
 const research: ExperienceItem[] = [
   {
-    id: "isef-2026",
-    title: "ISEF 2026",
-    organization: "Regeneron ISEF",
+    id: "problem-decomposition",
+    title: "Teaching Problem Decomposition with Input-Output Pair Specification",
+    organization: "CS Education Research",
     logo: "/images/ucsd-logo.png",
+    role: "Research Proposal",
+    description: "Research on teaching problem decomposition skills in LLM-assisted computer science education. Focusing on how manipulating input-output pairs in problems can enhance pedagogical outcomes and develop requirement fluency - the ability to competently articulate and refine requirements using computational thinking. Adapting programming plans to skills required for AI-assisted programmers through exercises targeting identification, refinement, and testing of input-output pairs.",
+    dates: "2025",
+  },
+  {
+    id: "gsdsef-2026",
+    title: "GSDSEF 2026",
+    organization: "Greater San Diego Science & Engineering Fair",
+    logo: "/images/isef-logo.png",
     role: "Presenter",
-    description: "Presenting research at the International Science and Engineering Fair in Phoenix, Arizona.",
-    dates: "May 9-15, 2026",
+    description: "Presenting research at the Greater San Diego Science & Engineering Fair with goal of advancing to present at the International Science and Engineering Fair (ISEF) in Phoenix, Arizona.",
+    dates: "2026",
   },
   {
     id: "iticse-2026",
     title: "ITiCSE 2026",
     organization: "ACM ITiCSE",
-    logo: "/images/ucsd-logo.png",
+    logo: "/images/iticse-logo.png",
     role: "Submitting",
     description: "Submitting research to Innovation and Technology in Computer Science Education conference in Madrid, Spain.",
     dates: "July 13-15, 2026",
@@ -185,7 +218,7 @@ const research: ExperienceItem[] = [
     id: "respect-2026",
     title: "RESPECT 2026",
     organization: "ACM SIGCSE",
-    logo: "/images/ucsd-logo.png",
+    logo: "/images/SIGCSE-logo_home.jpg",
     role: "Submitting",
     description: "Submitting research to Research on Equity and Sustained Participation in Engineering, Computing, and Technology conference in Chicago.",
     dates: "June 8-11, 2026",
@@ -201,7 +234,17 @@ const speeches: ExperienceItem[] = [
     description: "Public speaking engagements and presentations",
     dates: "2025-2026",
     isProjectCategory: true,
-    nested: [],
+    nested: [
+      {
+        id: "khan-lab-summit",
+        title: "Khan Lab School AI and Education Summit",
+        organization: "Khan Academy",
+        logo: "/images/khan-academy-logo.png",
+        role: "Presenter",
+        description: "Presented on integrating critical thinking, problem decomposition and high-level reasoning into computer science education. Spoke alongside students, researchers, educators and entrepreneurs about AI-supported education in computer science.",
+        dates: "November 2025",
+      },
+    ],
   },
 ]
 
@@ -340,7 +383,7 @@ export default function Portfolio() {
           <div className="flex-1">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">hey, i'm hudson</h1>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              fifteen. high school sophomore. research @ ucsd. patrick henry high school '28. building saas. presenting @ isef.
+              fifteen. high school sophomore. research @ ucsd. patrick henry high school '28. mentored + funded cs ed research. presenting @ gsdsef.
             </p>
 
             {/* About Section - moved inside header */}

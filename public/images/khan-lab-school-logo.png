@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Metas & Morweb CMS assets -->
+
+<meta charset="utf-8" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Not Found</title>
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://khanlabschool.org/favicon.ico" />
+<meta property="og:title" content="Not Found" />
+
+<link type="text/css" href="/res/css/mw.cells.css" rel="stylesheet" />
+<link type="text/css" href="/res/css/mw.forms.css?3c59dc048e8850243be8079a5c74d079" rel="stylesheet" />
+<link type="text/css" href="/cms3t/res/vit-lib/status.css" rel="stylesheet" />
+<link type="text/css" href="/res/pages/css/front.css" rel="stylesheet" />
+<link type="text/css" href="/res/pages/css/spacer.css" rel="stylesheet" />
+<link type="text/css" href="/res/button/css/button.css" rel="stylesheet" />
+<link type="text/css" href="/res/gensoclinks/css/gensoclinks.css" rel="stylesheet" />
+
+
+<script type="text/javascript" src="/cms3t/res/js/json2.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/jQuery/jquery.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/jQuery/ui/jquery.ui.core.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/jQuery/ui/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/jQuery/ui/jquery.ui.mouse.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/jQuery/ui/jquery.ui.position.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/jQuery/ui/jquery.ui.draggable.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/jQuery/ui/jquery.ui.droppable.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/jQuery/ui/jquery.ui.sortable.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/jQuery/jquery.AjaxUpload.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/jQuery/hoverIntent.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/jQuery/superfish.js"></script>
+<script type="text/javascript" src="/cms3t/res/vit-lib/common.js"></script>
+<script type="text/javascript" src="/cms3t/res/vit-lib/ajax.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/mw.system.js"></script>
+<script type="text/javascript" src="/cms3t/res/js/mw.forms.js"></script>
+<script type="text/javascript" src="/res/system/js/mwSelectInput.js"></script>
+<script type="text/javascript" src="/res/pages/js/mw.responsive.js"></script>
+<script type="text/javascript" src="/res/button/js/button.js"></script>
+
+
+
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon"/>
+
+<!-- Font & Icon -->
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Open+Sans:300,400,400i,700,700i&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=proxima-nova:wght@400;700&family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="/css/mw.css?v=1.0"/>
+<link rel="stylesheet" href="/css/global.css?v=1.0"/>
+<link rel="stylesheet" href="/css/reset.css?v=1.0"/>
+	<link rel="stylesheet" href="/css/utilities.css?v=1.0"/>
+<link rel="stylesheet" href="/css/all.css?v=1.0"/>
+<link rel="stylesheet" href="/css/override.css?v=1.0"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EYKZY07TCE" nocache="nocache"></script>
+	<script nocache="nocache">
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-EYKZY07TCE');
+	</script>
+	
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NLBKDHBV');</script>
+<!-- End Google Tag Manager -->
+
+	
+	
+</head>
+
+<body>
+	
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLBKDHBV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	
+<!-- Header Two -->
+<header>
+	
+
+<!-- Header Three -->
+<div class="header headerThree is-sticky">
+	<div class="headerWrap">
+
+		<!-- Header Search Bar -->
+		<div class="headerSearchBar">
+			<div class="searchBar">
+				<div class="searchBarWrap">
+					<div class="searchBarForm">
+						<form action="/search" method="GET">
+							<input type="text" name="q" value="" placeholder="Search">
+							<button type="submit">
+								<i class="fa fa-search"></i>
+								<span class="_sr-only">Search</span>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Logo -->
+		<div class="headerLogo">
+			<a href="/"><img src="/images/logo_new_3.svg"></a>
+		</div>
+
+		<!-- Header Right -->
+		<div class="headerRight">
+
+			<!-- Header Utility Bar -->
+			<div class="headerUtilityBar">
+				<div class="utilityBar">
+					<div class="utilityBarWrap">
+
+						<!-- Utility Left -->
+						<div class="utilityBarLeft">
+							
+						</div>
+
+						<!-- Utility Right -->
+						<div class="utilityBarRight">
+
+							<!-- Utility Bar Menu -->
+							<div class="utilityBarMenu">
+								<div id="w3U7X9N2SQT24DM1" class="mwPageBlock Menu" style=""><div class="blockContents"><ul id="mHNt96MZX">
+<li class="no-children"><a href="/Learn-More"><span class="Title">Learn More</span></a></li>
+<li class="no-children"><a href="/Visit"><span class="Title">Visit Us</span></a></li>
+<li class="no-children"><a href="/Apply-Now"><span class="Title">Apply</span></a></li>
+<li class="no-children"><a href="https://www.parentsquare.com/signin" target="_blank"><span class="Title">ParentSquare</span></a></li></ul></div></div>
+							</div>
+							
+							<!-- Header Search -->
+					<div class="headerSearch">
+						<button class="searchBtn"><i class="fas fa-search"></i></button>
+					</div>
+
+						
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Header Main -->
+			<div class="headerMain">
+
+				<!-- Header Main Left -->
+				<div class="headerMainLeft">
+
+					
+				</div>
+
+				<!-- Header Main Right -->
+				<div class="headerMainRight">
+
+					<!-- Header Menu -->
+					<div class="headerMenu">
+						<div id="wHAY1ODXZDIEBSDR" class="mwPageBlock Menu" style=""><div class="blockContents"><ul id="mRpH1FGvo">
+<li class="has-children"><a href="https://khanlabschool.org/Get-to-Know-Us"><span class="Title">About</span></a><ul>
+<li class="no-children"><a href="/Get-to-Know-Us"><span class="Title">Get to Know Us</span></a></li>
+<li class="no-children"><a href="/Mission-and-Philosophy"><span class="Title">Mission & Philosophy</span></a></li>
+<li class="no-children"><a href="/Faculty-And-Staff"><span class="Title">Faculty & Staff</span></a></li>
+<li class="no-children"><a href="/Meet-our-Founder"><span class="Title">Meet our Founder: Sal Khan</span></a></li>
+<li class="no-children"><a href="/Executive-Director-Welcome"><span class="Title">Executive Director Welcome</span></a></li>
+<li class="no-children"><a href="/FAQs"><span class="Title">Frequently Asked Questions</span></a></li>
+<li class="no-children"><a href="/Careers"><span class="Title">Careers</span></a></li>
+<li class="no-children"><a href="/Contact"><span class="Title">Contact</span></a></li></ul></li>
+<li class="has-children"><a href="https://khanlabschool.org/Welcome"><span class="Title">Admissions</span></a><ul>
+<li class="no-children"><a href="/Welcome"><span class="Title">Meet the Admissions Team</span></a></li>
+<li class="no-children"><a href="/Learn-More"><span class="Title">Learn More</span></a></li>
+<li class="no-children"><a href="/Visit"><span class="Title">Visit Us</span></a></li>
+<li class="no-children"><a href="/Apply-Now"><span class="Title">Apply</span></a></li>
+<li class="no-children"><a href="/Tuition-Affordability"><span class="Title">Tuition & Affordability</span></a></li></ul></li>
+<li class="has-children"><a href="https://khanlabschool.org/Academic-Programs"><span class="Title">Academics</span></a><ul>
+<li class="no-children"><a href="/Academic-Programs"><span class="Title">Academic Programs</span></a></li>
+<li class="no-children"><a href="/Early-Childhood"><span class="Title">Lower School (TK-K)</span></a></li>
+<li class="no-children"><a href="/Lower-School"><span class="Title">Lower School (Grades 1-5)</span></a></li>
+<li class="no-children"><a href="/Middle-School"><span class="Title">Middle School (Grades 6-8)</span></a></li>
+<li class="no-children"><a href="/Upper-School"><span class="Title">Upper School (Grades 9-12)</span></a></li>
+<li class="no-children"><a href="/Student-Wellbeing"><span class="Title">Student Wellbeing</span></a></li>
+<li class="no-children"><a href="/College-Counseling"><span class="Title">College Counseling</span></a></li></ul></li>
+<li class="has-children"><a href="https://khanlabschool.org/Student-Clubs"><span class="Title">Student Life</span></a><ul>
+<li class="no-children"><a href="/Student-Clubs"><span class="Title">Student Clubs</span></a></li>
+<li class="no-children"><a href="/Athletics"><span class="Title">Athletics</span></a></li>
+<li class="no-children"><a href="/After-School-Program"><span class="Title">After School Program</span></a></li></ul></li>
+<li class="has-children"><a href="https://khanlabschool.org/Family-Association"><span class="Title">Community</span></a><ul>
+<li class="no-children"><a href="/Family-Association"><span class="Title">Family Association</span></a></li>
+<li class="no-children"><a href="/Alumni"><span class="Title">Alumni</span></a></li>
+<li class="no-children"><a href="/AIED"><span class="Title">AIED Summit</span></a></li>
+<li class="no-children"><a href="/college-admission-lab"><span class="Title">Webinars / Admissions Lab</span></a></li></ul></li>
+<li class="has-children"><a><span class="Title">News</span></a><ul>
+<li class="no-children"><a href="/Media-and-Press"><span class="Title">Media and Press</span></a></li></ul></li>
+<li class="no-children"><a href="/Giving"><span class="Title">Giving</span></a></li></ul></div></div>
+					</div>
+
+					<!-- Header Buttons -->
+					<!--<div class="headerBtns">
+						<div id="wCW56ECK7T0FYB5K" class="mwPageBlock Button" style=""><div class="blockContents"><div class="mwBtnCenter">
+	<div class="btn btnPrimary">
+		<p>
+			<a href="/Learn-More_old" template="default" class="medium" target="_blank">Learn More</a>
+		</p>
+	</div>
+</div></div></div>
+						<div id="wVLDE3KTW8RXBHWX" class="mwPageBlock Button" style=""><div class="blockContents"><div class="mwBtnCenter">
+	<div class="btn btnPrimary">
+		<p>
+			<a href="/Apply-Now" template="default" class="medium" target="_self">Apply</a>
+		</p>
+	</div>
+</div></div></div>
+					</div>-->
+
+					<!-- Header Mobile Menu -->
+					<div class="headerMobileMenu">
+						<button class="burger burgerOne" aria-label="Open mobile menu">
+						<span class="burgerLines">
+	                        <span class="burgerLine"></span>
+	                        <span class="burgerLine"></span>
+	                        <span class="burgerLine"></span>
+	                        <span class="burgerLine"></span>
+	                        <span class="burgerLine"></span>
+	                        <span class="burgerLine"></span>
+	                    </span>
+							<span class="burgerSlashes">
+	                        <span class="burgerSlash"></span>
+	                        <span class="burgerSlash"></span>
+	                        <span class="burgerSlash"></span>
+	                        <span class="burgerSlash"></span>
+	                    </span>
+							<span class="burgerText">
+		                    <span class="textOpen" aria-hidden="true">Menu</span>
+							<span class="textClose" aria-hidden="true">Close</span>
+		                </span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Mobile Menu -->
+<div class="mobileMenu mobileMenuOne content-style" aria-hidden="true">
+
+	<!-- Backdrop -->
+	<div class="mobileMenuBackdrop"></div>
+
+	<!-- Wrap -->
+	<div class="mobileMenuWrap">
+
+		<!-- Inner -->
+		<div class="mobileMenuInner _bg-white">
+
+			<!-- Close Button -->
+			<div class="mobileMenuClose">
+				<button class="burger burgerOne open" aria-label="Close mobile menu">
+					<span class="burgerSlashes">
+						<span class="burgerSlash"></span>
+						<span class="burgerSlash"></span>
+						<span class="burgerSlash"></span>
+						<span class="burgerSlash"></span>
+					</span>
+					<span class="burgerText">
+						<span class="textOpen">Menu</span>
+						<span class="textClose">Close</span>
+					</span>
+				</button>
+			</div>
+
+			<!-- Header -->
+			<div class="mobileMenuHeader"></div>
+
+			<!-- Body -->
+			<div class="mobileMenuBody">
+
+				<!-- Navigation -->
+				<div class="mobileMenuNav">
+					<div id="wC4MRBZA18DIO4CR" class="mwPageBlock Menu" style=""><div class="blockContents"><ul id="mUirfJoEa">
+<li class="has-children"><a href="https://khanlabschool.org/Get-to-Know-Us"><span class="Title">About</span></a><ul>
+<li class="no-children"><a href="/Get-to-Know-Us"><span class="Title">Get to Know Us</span></a></li>
+<li class="no-children"><a href="/Mission-and-Philosophy"><span class="Title">Mission & Philosophy</span></a></li>
+<li class="no-children"><a href="/Faculty-And-Staff"><span class="Title">Faculty & Staff</span></a></li>
+<li class="no-children"><a href="/Meet-our-Founder"><span class="Title">Meet our Founder: Sal Khan</span></a></li>
+<li class="no-children"><a href="/Executive-Director-Welcome"><span class="Title">Executive Director Welcome</span></a></li>
+<li class="no-children"><a href="/FAQs"><span class="Title">Frequently Asked Questions</span></a></li>
+<li class="no-children"><a href="/Careers"><span class="Title">Careers</span></a></li>
+<li class="no-children"><a href="/Contact"><span class="Title">Contact</span></a></li></ul></li>
+<li class="has-children"><a href="https://khanlabschool.org/Welcome"><span class="Title">Admissions</span></a><ul>
+<li class="no-children"><a href="/Welcome"><span class="Title">Meet the Admissions Team</span></a></li>
+<li class="no-children"><a href="/Learn-More"><span class="Title">Learn More</span></a></li>
+<li class="no-children"><a href="/Visit"><span class="Title">Visit Us</span></a></li>
+<li class="no-children"><a href="/Apply-Now"><span class="Title">Apply</span></a></li>
+<li class="no-children"><a href="/Tuition-Affordability"><span class="Title">Tuition & Affordability</span></a></li></ul></li>
+<li class="has-children"><a href="https://khanlabschool.org/Academic-Programs"><span class="Title">Academics</span></a><ul>
+<li class="no-children"><a href="/Academic-Programs"><span class="Title">Academic Programs</span></a></li>
+<li class="no-children"><a href="/Early-Childhood"><span class="Title">Lower School (TK-K)</span></a></li>
+<li class="no-children"><a href="/Lower-School"><span class="Title">Lower School (Grades 1-5)</span></a></li>
+<li class="no-children"><a href="/Middle-School"><span class="Title">Middle School (Grades 6-8)</span></a></li>
+<li class="no-children"><a href="/Upper-School"><span class="Title">Upper School (Grades 9-12)</span></a></li>
+<li class="no-children"><a href="/Student-Wellbeing"><span class="Title">Student Wellbeing</span></a></li>
+<li class="no-children"><a href="/College-Counseling"><span class="Title">College Counseling</span></a></li></ul></li>
+<li class="has-children"><a href="https://khanlabschool.org/Student-Clubs"><span class="Title">Student Life</span></a><ul>
+<li class="no-children"><a href="/Student-Clubs"><span class="Title">Student Clubs</span></a></li>
+<li class="no-children"><a href="/Athletics"><span class="Title">Athletics</span></a></li>
+<li class="no-children"><a href="/After-School-Program"><span class="Title">After School Program</span></a></li></ul></li>
+<li class="has-children"><a href="https://khanlabschool.org/Family-Association"><span class="Title">Community</span></a><ul>
+<li class="no-children"><a href="/Family-Association"><span class="Title">Family Association</span></a></li>
+<li class="no-children"><a href="/Alumni"><span class="Title">Alumni</span></a></li>
+<li class="no-children"><a href="/AIED"><span class="Title">AIED Summit</span></a></li>
+<li class="no-children"><a href="/college-admission-lab"><span class="Title">Webinars / Admissions Lab</span></a></li></ul></li>
+<li class="has-children"><a><span class="Title">News</span></a><ul>
+<li class="no-children"><a href="/Media-and-Press"><span class="Title">Media and Press</span></a></li></ul></li>
+<li class="no-children"><a href="/Giving"><span class="Title">Giving</span></a></li></ul></div></div>
+					<div id="w2CTGVW0ERGD6XIA" class="mwPageBlock Menu" style=""><div class="blockContents"><ul id="mxLa4YGKJ">
+<li class="no-children"><a href="/Learn-More"><span class="Title">Learn More</span></a></li>
+<li class="no-children"><a href="/Visit"><span class="Title">Visit Us</span></a></li>
+<li class="no-children"><a href="/Apply-Now"><span class="Title">Apply</span></a></li>
+<li class="no-children"><a href="https://www.parentsquare.com/signin" target="_blank"><span class="Title">ParentSquare</span></a></li></ul></div></div>
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<div class="mobileMenuFooter">
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+
+		//-----------------------------------------------------------
+		//
+		// Mobile Menu
+		//
+		//-----------------------------------------------------------
+		//
+		(function () {
+
+			//--------------------------------
+			// Selectors
+			//--------------------------------
+			//
+			var $body                 = $('body');
+			var $header               = $('.headerThree');
+			var $burger               = $('.burger', $header);
+			var $menu                 = $('.mobileMenuOne');
+			var $nav                  = $('.mobileMenuNav', $menu);
+			var $menuClose            = $('.mobileMenuClose, .mobileMenuBackdrop', $menu);
+			var $menuBackdrop         = $('.mobileMenuBackdrop', $menu);
+			var $navChildrenUl        = $('ul ul', $nav);
+			var $navHasChildrenLi     = $('li.has-children', $nav);
+			var $navHasChildrenAnchor = $('li.has-children > a', $nav);
+
+			//--------------------------------
+			// Initialization
+			//--------------------------------
+			//
+			// Append a plus symbol to <a class="has-children">
+			//
+			$navHasChildrenAnchor.append('<i class="fa fa-chevron-right"></i>');
+
+			//--------------------------------
+			// Toggle Mobile Menu
+			//--------------------------------
+			//
+			// Open
+			//
+			$burger.on('click', function () {
+				$body.addClass('_overflow-hidden');
+				$menu.addClass('active').attr('aria-hidden', 'false');
+				$menuBackdrop.fadeIn(400);
+			});
+
+			// Close
+			//
+			$menuClose.on('click', function () {
+				$body.removeClass('_overflow-hidden');
+				$menu.removeClass('active').attr('aria-hidden', 'true');
+				$menuBackdrop.fadeOut(400, function () {
+					$navHasChildrenLi.removeClass('active');
+					$navChildrenUl.hide().removeClass('expanded');
+				});
+			});
+
+			//--------------------------------
+			// Toggle Children
+			//--------------------------------
+			//
+			$navHasChildrenAnchor.on('click', function (e) {
+				e.preventDefault();
+
+				// This Selectors
+				//
+				var $this              = $(this);
+				var $thisLi            = $this.closest('li.has-children');
+
+				// Child Selectors
+				//
+				var $childUl           = $this.next('ul');
+
+				// Children Selectors
+				//
+				var $childrenUl        = $('ul', $childUl);
+				var $childrenLi        = $('li.has-children', $childUl);
+
+				// Sibling Selectors
+				//
+				var $siblingLi         = $thisLi.siblings('li.has-children');
+				var $siblingChildrenUl = $('ul', $siblingLi);
+				var $siblingChildrenLi = $('li.has-children', $siblingLi);
+
+				// Toggle This
+				//
+				$thisLi.toggleClass('active');
+
+				// Toggle Child
+				//
+				$childUl.slideToggle().toggleClass('expanded');
+
+				// Collapse Grandchildren
+				//
+				$childrenLi.removeClass('active');
+				$childrenUl.slideUp().removeClass('expanded');
+
+				// Collapse Siblings
+				//
+				$siblingLi.removeClass('active');
+				$siblingChildrenLi.removeClass('active');
+				$siblingChildrenUl.slideUp().removeClass('expanded');
+			});
+		})();
+
+		//-----------------------------------------------------------
+		//
+		// Toggle Search
+		//
+		//-----------------------------------------------------------
+		//
+		(function () {
+			var $searchBtn = $('.headerThree .searchBtn');
+			var $searchBar = $('.headerThree .searchBar');
+			var $searchBarInput = $('.headerThree .searchBar input[name="q"]');
+
+			$searchBtn.on('click', function (e) {
+				e.preventDefault();
+
+				$('.headerThree').toggleClass('searchBar-active');
+
+				if ($searchBar.hasClass('active')) {
+					$searchBtn.removeClass("active");
+					$searchBar.removeClass("active");
+					$searchBarInput.blur();
+				} else {
+					$searchBtn.addClass("active");
+					$searchBar.addClass("active");
+					$searchBarInput.focus();
+				}
+			});
+		})();
+	});
+</script>
+</header>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+
+		//-----------------------------------------------------------
+		// Sticky Header With Space
+		//-----------------------------------------------------------
+		//
+		(function() {
+			var $header = $('.headerTwo.stickyHeader.stickyHeaderWithSpace');
+			var $wrap = $('.headerWrap', $header);
+
+			// Stop the function if the header is not sticky
+			//
+			if (!$header.length) {
+				return false;
+			}
+
+			matchHeaderHeight();
+
+			$(window).on('resize', _debounce(function () {
+				matchHeaderHeight();
+			}, 250));
+
+			function matchHeaderHeight() {
+				$header.height($wrap.outerHeight());
+			}
+		})();
+
+		//-----------------------------------------------------------
+		// Burger & Sidr
+		//-----------------------------------------------------------
+		//
+		(function () {
+
+			var $burger = $('.headerTwo .burger');
+
+			// Init Sidr Plugin
+			$burger.sidr({
+				name: 'sidr-main',
+				source: '.headerTwo .headerMenu, .headerTwo .utilityRight .headerBtns',
+				side: 'right',
+				renaming: false,
+				speed: 400,
+				onOpen: function () {
+					$burger.addClass('open');
+				},
+				onClose: function () {
+					$burger.removeClass('open');
+				}
+			});
+
+			// Sidr Menu
+			var $menu = $('.sidr ul li.has-children > a');
+			var $childMenu = $('.sidr ul li ul');
+
+			// Append an arrow button to <li> that contains child menu
+			$menu.after('<span class="sidrArrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg></span>');
+
+			// Hide all child menu
+			$childMenu.hide();
+
+			// Prevent Link
+			$menu.on('click', function (e) {
+				e.preventDefault();
+			});
+
+			// Toggle Child Menu
+			$menu.on('click', function () {
+
+				// This selectors
+				var $this = $(this);
+				var $thisLI = $this.closest('li');
+				var $thisChild = $thisLI.children('ul');
+
+				// Sibling selectors
+				var $siblingLI = $thisLI.siblings('li.has-children');
+				var $siblingChild = $siblingLI.children('ul');
+
+				// Close other child menu
+				$siblingLI.not($thisLI).removeClass('open');
+				$siblingChild.not($thisChild).slideUp(360);
+
+				// Open clicked child menu
+				$thisLI.toggleClass('open');
+				$thisChild.slideToggle(360);
+			});
+		})();
+
+		//-----------------------------------------------------------
+		// Toggle Search
+		//-----------------------------------------------------------
+		//
+		(function () {
+			var $searchBtn = $('.headerTwo .searchBtn');
+			var $searchBar = $('.headerTwo .searchBar');
+			var $searchBarInput = $('.headerTwo .searchBar input[name="q"]');
+
+			$searchBtn.on('click', function (e) {
+				e.preventDefault();
+
+				$('.headerTwo').toggleClass('search-bar-open');
+
+				if ($searchBar.hasClass('active')) {
+					$searchBtn.removeClass("active");
+					$searchBar.removeClass("active");
+					$searchBarInput.blur();
+				} else {
+					$searchBtn.addClass("active");
+					$searchBar.addClass("active");
+					$searchBarInput.focus();
+				}
+			});
+
+			$('.searchBarCloseBtn').on('click', function () {
+				$searchBtn.addClass("active");
+				$searchBar.removeClass("active");
+				$searchBarInput.blur();
+			});
+		})();
+
+		//-----------------------------------------------------------
+		// Header Scroll Animation
+		//-----------------------------------------------------------
+		//
+		(function () {
+
+			// Selectors
+			//
+			var $header = $('.headerTwo');
+			var $trigger = $('#headerTrigger');
+
+			// This function only works when
+			// #headerTrigger exists
+			//
+			if ($trigger.length) {
+				$header.addClass('blendingHeader');
+			} else {
+				return false;
+			}
+
+			// Scroll Effect
+			//
+			new ScrollMagic.Scene({
+				triggerElement: $trigger,
+				triggerHook: 'onLeave',
+				offset: -($('.headerWrap').outerHeight()),
+				reverse: true
+			})
+				.setClassToggle($header, 'triggered')
+				.addTo(SMController);
+		})();
+	});
+
+                /* Sticky Menu Add Class */
+
+jQuery(window).scroll(function() {
+
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 45) {
+
+        jQuery(".headerTwo").addClass("stuck");
+
+    }
+
+    if (scroll <= 45) {
+
+        jQuery(".headerTwo").removeClass("stuck")
+
+    }
+
+});
+</script>
+
+  <!-- Main -->
+  <main id="mainArea" class="mainArea">
+    <div class="mwPageArea"><div id="wWZVY4LOR0BLJPDH" class="mwPageBlock Include" style=""><div class="blockContents"><div class="contentAreaTall content-style">
+	<div class="contentAreaWrap">
+		<div class="container">
+			<div class="mwPageArea"><div id="wOVO4ZU6UVAULERM" class="mwPageBlock Spacer" style=""><div class="blockContents"><div  class="mwSpacer large hor"></div></div></div><div id="wI4MY6ASQCANXQDK" class="mwPageBlock Content" style=""><div class="blockContents"><h1 style="text-align: center;">
+        PAGE NOT FOUND
+</h1>
+<h5 style="text-align: center;">
+        We were unable to find the page you were looking for.
+</h5></div></div><div id="wBB2RB9YHX2NJXK8" class="mwPageBlock Include" style=""><div class="blockContents"><div class="content-style _mx-auto" style="max-width: 480px;">
+	<div class="mwPageArea"><div id="w1K45QN0OTQA9LWM" class="mwPageBlock Content" style=""><div class="blockContents"><p style="text-align: center;">
+        This page may have been removed or had its name changed. Please check that the URL you typed was spelled correctly. Otherwise, please use one of the options below: Search our site by topic,
+        keyword, or description.
+</p></div></div><div id="w50GJ2ZMJ4H3CPB9" class="mwPageBlock Include" style=""><div class="blockContents"><div class="searchForm">
+	<div class="searchFormWrap">
+		<form action="/search" method="get">
+			<div class="inputGroup">
+				<div class="mwInput text">
+					<input type="text" name="q" value="" title="Search" placeholder="Search...">
+				</div>
+				<div class="mwInput button">
+					<input type="submit" value="">
+				</div>
+			</div>
+		</form>
+	</div>
+</div></div></div><div id="wVSOEXK1S5AX01GV" class="mwPageBlock Button" style=""><div class="blockContents"><div class="mwBtnCenter">
+	<div class="btn btnPrimary">
+		<p>
+			<a href="/Home" template="default" class="medium" target="_self">Return to the homepage</a>
+		</p>
+	</div>
+</div></div></div><div class="Clear"></div></div>
+</div></div></div><div id="wNBYTFLB3VEQQ1RB" class="mwPageBlock Spacer" style=""><div class="blockContents"><div  class="mwSpacer large hor"></div></div></div><div class="Clear"></div></div>
+		</div>
+	</div>
+</div></div></div><div class="Clear"></div></div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footerArea" class="footerArea" style="min-height: 200px">
+   <div class="footer footerOne content-style">
+	<div class="footerWrap">
+
+		<!-- Main -->
+		<div class="footerMain _bg-secondary">
+			<div class="container">
+
+				<!-- Bottom -->
+				<div class="footerBottom">
+					<div class="row">
+
+
+
+						<!-- Col 2 -->
+						<div class="footerCol footerCol2 col-xl-2 col-md-3 col-sm-6">
+							<div class="footerColInner">
+								<div id="wPPQM30746QZWXCF" class="mwPageBlock Content" style=""><div class="blockContents"><p>
+        <span style="font-size: 11pt;"><strong><span style="font-size: 10pt;">MIDDLE &amp; UPPER SCHOOL</span>
+        <br /></strong> <span style="font-size: 10pt;">(Grades 6-12)</span></span>
+</p>
+<p>
+        <span style="font-size: 12pt;">1200 Villa Street</span>
+        <br />
+        <span style="font-size: 12pt;">Mountain View, CA 94041</span>
+        <br />
+        <span style="font-size: 12pt;">650-489-0071</span>
+</p>
+<div id="gtx-trans" style="position: absolute; left: -88px; top: -13px;">
+        &nbsp;
+</div></div></div>
+							</div>
+						</div>
+
+						<!-- Col 3 -->
+						<div class="footerCol footerCol3 col-xl-2 col-md-3 col-sm-6">
+							<div class="footerColInner">
+								<div id="w2T2H2DV56HJYZ2B" class="mwPageBlock Content" style=""><div class="blockContents"><p>
+        <span style="font-size: 10pt;"><strong>LOWER SCHOOL
+        <br /></strong> (Grades TK-5)</span>
+</p>
+<p>
+        <span style="font-size: 12pt;">3233 Cowper Street</span>
+        <br />
+        <span style="font-size: 12pt;">Palo Alto, CA 94306</span>
+        <br />
+        <span style="font-size: 12pt;">650-489-0071</span>
+</p>
+<div id="gtx-trans" style="position: absolute; left: -60px; top: -13px;">
+        &nbsp;
+</div></div></div>
+							</div>
+						</div>
+
+                        <!-- Col 1 -->
+						<div class="footerCol footerCol1 col-xl-4">
+							<div class="footerColInner">
+								<div id="w71JL0UHJ6D9XYU2" class="mwPageBlock Content" style=""><div class="blockContents"><p>
+        <span style="font-size: 10pt;"><strong>AFFILIATED PROGRAMS
+        <br /></strong></span>
+</p>
+<p>
+        <span style="font-size: 10pt;"><span style="font-size: 12pt;"><a href="https://klswichita.org">KLSWichita.org</a>
+        <br />
+        <a href="https://www.khanacademy.org/" target="_blank">Khanacademy.org</a>
+        <br />
+        <span style="font-size: 12pt;"><a href="https://www.khanschoolsnetwork.org/" target="_blank">Khan Schools Network</a></span>
+        <br />
+        <span style="font-size: 12pt;"><a href="https://schoolhouse.world/">Schoolhouse.world</a></span></span></span>
+</p>
+<div id="gtx-trans" style="position: absolute; left: -56px; top: 111px;">
+        &nbsp;
+</div></div></div>
+							</div>
+
+						</div>
+
+						<!-- Col 4 -->
+						<div class="footerCol footerCol4 col-xl-2 col-md-3 col-sm-6">
+							<div class="footerColInner">
+								<div id="wTG1MID2MMWXTUFA" class="mwPageBlock Content" style=""><div class="blockContents"><p>
+        <strong><span style="font-size: 10pt;">ACCREDITATION &amp; MEMBERSHIPS</span></strong>
+</p>
+<p>
+        <img src="/get/files/image/galleries/cropped-logo-300-white.png?100x29" alt="" width="75" />&nbsp;&nbsp; <img src="/get/files/image/galleries/NAIS-logo-white.png?100x50" alt=
+        "NAIS-logo-white.png" width="75" />&nbsp;&nbsp; <img src="/get/files/image/galleries/WASC.png?100x108" alt="WASC.png" width="75" />&nbsp;&nbsp; <img src=
+        "https://khanlabschool.org/files/galleries/pocis_logo.png" alt="pocis" width="50" />
+</p></div></div>
+                                <!-- Social Media Services -->
+
+							</div>
+						</div>
+                        <!-- Col 4 -->
+						<div class="footerCol footerCol4 col-xl-2 col-md-3 col-sm-6">
+							<div class="footerColInner">
+								<div id="wVZYF1DTLSS2DX41" class="mwPageBlock Content" style=""><div class="blockContents"><p>
+        <span style="font-size: 11pt;"><strong>Like. Follow. Friend.</strong></span>
+        <br />
+        <span style="font-size: 11pt;"><strong>@khanlabschool</strong></span>
+</p></div></div>
+                                <!-- Social Media Services -->
+                                	<div class="footerSns">
+						<div id="wW8HXWLD4NO5WLTU" class="mwPageBlock Gensoclinks" style=""><div class="blockContents">
+	<div class="snsLink snsLinkDefault left">
+		
+			<a href="https://www.facebook.com/khanlabschool" class="small" target="_blank" aria-label="small">
+				<i class="fab fa-facebook"></i>
+			</a>
+		
+			<a href="https://www.instagram.com/khanlabschool/" class="small" target="_blank" aria-label="small">
+				<i class="fab fa-instagram"></i>
+			</a>
+		
+			<a href="https://www.linkedin.com/company/khan-lab-school" class="small" target="_blank" aria-label="small">
+				<i class="fab fa-linkedin"></i>
+			</a>
+		
+			<a href="https://twitter.com/khanlabschool" class="small" target="_blank" aria-label="small">
+				<i class="fab fa-twitter"></i>
+			</a>
+		
+			<a href="https://www.youtube.com/c/KhanLabSchool" class="small" target="_blank" aria-label="small">
+				<i class="fab fa-youtube"></i>
+			</a>
+		
+			<a href="https://vimeo.com/showcase/11246855?share=copy" class="small" target="_blank" aria-label="small">
+				<i class="fab fa-vimeo"></i>
+			</a>
+		
+			<a href="https://tiktok.com/@khanlabschool" class="small" target="_blank" aria-label="small">
+				<i class="fab fa-tiktok"></i>
+			</a>
+		
+	</div>
+</div></div>
+                                        <div class="row">
+                                        <div class="col-md-2"><div id="w9EI45J8PPFZC2MV" class="mwPageBlock Content" style=""><div class="blockContents"><p>
+        <span style="font-size: 10pt;">&nbsp;</span>
+</p></div></div></div>
+                                        <div class="col-md-2"><div id="wRYKDG03U523IIAL" class="mwPageBlock Content" style=""><div class="blockContents"><p>
+        <span style="font-size: 10pt;">&nbsp;</span>
+</p></div></div></div>
+                                        <div class="col-md-2"><div id="wZ5WP23HV8BJEOEJ" class="mwPageBlock Content" style=""><div class="blockContents"><h6>
+        &nbsp;
+</h6></div></div></div>
+                                        </div>
+
+					</div>
+
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer Copyright -->
+		<div class="footerCopyright _bg-white">
+			<div class="container">
+
+                <div class="copyrightContent"><div class="copyrightAutoYear">© Copyright 2025 </div>
+<div id="wNJUYDIBMPRZBFNE" class="mwPageBlock Content" style=""><div class="blockContents"><p>
+        &nbsp; Khan Lab School |&nbsp;<a href="/Privacy">Privacy</a> |&nbsp;<a href="/Cookie-Policy">Cookie Policy</a>&nbsp;|&nbsp;<a href="/Terms-of-Use">Terms of Use</a>
+</p>
+<div id="gtx-trans" style="position: absolute; left: 506px; top: 36px;">
+        &nbsp;
+</div></div></div></div>
+			</div>
+		</div>
+	</div>
+</div>
+  </footer>
+</div>
+
+<!-- Javascripts -->
+<div id="javascripts">
+
+  <!-- Dependencies -->
+  <script src="/js/vendors/isjs/0.9.0/is.min.js"></script>
+  <script src="/js/vendors/modernizr/3.6.0/modernizr-custom.js"></script>
+  <script src="/js/vendors/slick/1.8.1/slick.min.js"></script>
+  <script src="/js/vendors/sidr/1.2.1/jquery.sidr.js"></script>
+  <script src="/js/vendors/magnific-popup/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="/js/vendors/gsap/3.1.1/gsap.min.js"></script>
+  <script src="/js/vendors/scrollmagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="/js/vendors/scrollmagic/2.0.7/plugins/jquery.ScrollMagic.min.js"></script>
+  <script src="/js/vendors/scrollmagic/2.0.7/plugins/animation.gsap.min.js"></script>
+  <script src="/js/vendors/scrollmagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <!--<script src="/js/vendors/inputmask/5.0.0/jquery.inputmask.min.js"></script> -->
+  <script src="/js/vendors/matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+
+  <!-- Scripts -->
+  <script src="/js/global.js"></script>
+  <script src="/js/scripts.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="/js/jquery.countup.js"></script>
+
+<script>
+$('.counter').countUp();
+</script>
+</div>
+</body>
+</html>
