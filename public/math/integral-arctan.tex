@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{Integral of Arctan}
+\author{Hudson Mitchell-Pullman}
+\date{2025}
+
+\begin{document}
+
+\maketitle
+
+\noindent\textit{Problem source: Art of Problem Solving (AoPS)}
+
+\section*{Problem}
+
+Compute $\int \tan^{-1}x \,dx$.
+
+\section*{Solution}
+
+We must use integration by parts to solve this integral, but we notice that there are no obvious choices for $dv$ and $u$ since our integrand appears to consist of only one term. We set $u=\tan^{-1}x$ because we know $\frac{d}{dx}\tan^{-1}x=\frac{1}{x^2+1}$, forcing us to set $dv=dx$ since it is the only remaining term. We set $du=\frac{1}{x^2+1}dx$ and $v=x$ by the integral power rule.
+
+Next, by integration by parts, we write
+$$\int u\,dv=uv-\int v\,du \quad \rightarrow \quad \int\tan^{-1}x\,dx = x\tan^{-1}x-\int\frac{x}{x^2+1}dx.$$
+
+We recognize that making a substitution will make our integral significantly easier to solve; we set $x=\tan\theta$ by substitution.
+
+After our clever substitution, we have
+$$\int\tan^{-1}x\, dx = \theta\tan\theta-\int\frac{\tan\theta}{\tan^2\theta+1} \sec^2\theta \,d\theta.$$
+
+We may initially seem stuck, but we notice that when we divide our Fundamental Pythagorean Identity by $\cos^2\theta$, we get
+$$\sin^2\theta+\cos^2\theta=1 \quad \rightarrow \quad \tan^2\theta + 1 = \sec^2\theta.$$
+
+When we make this substitution using our trigonometric identity, we notice that our integrand simplifies nicely; our integral term can be written as
+$$\int\frac{\tan\theta\sec^2\theta}{\sec^2\theta}d\theta=\int\tan\theta\,d\theta.$$
+
+We will omit the proof for the antiderivative of tangent because we have proven it previously, but it's important to note that $\int\tan\theta\,d\theta=\log|\sec\theta|+C$ by substitution.
+
+Combining this with our original equation, we have
+$$\int\tan^{-1}x\, dx = \theta\tan\theta-\log|\sec\theta| +C.$$
+
+We may think we're done, but we must remember that our original integral was written in terms of $x$, so our answer must also be in terms of $x$, not $\theta$. Fortunately, we can resolve this issue quickly.
+
+We previously made the substitution $x=\tan\theta$. If we take the $\arctan$ of each side of the expression, we get $\theta=\tan^{-1}x$. Our final step is to rewrite our answer in terms of $x$, which we can do since we now know how to express $\theta$ in terms of $x$. We have
+$$\int\tan^{-1}x\, dx = x\tan^{-1}x-\log|\sec(\tan^{-1}x)| + C,$$
+which is our final answer in terms of $x$. \quad $\blacksquare$
+
+\end{document}
+

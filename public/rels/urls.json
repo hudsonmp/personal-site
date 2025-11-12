@@ -1,0 +1,18 @@
+{
+  "social": {
+    "github": "https://github.com/hudsonmp",
+    "linkedin": "https://www.linkedin.com/in/hudson-mitchell-pullman-5bbb18318/",
+    "email": "mailto:hudsonmitchellpullman@gmail.com",
+    "twitter": "https://x.com/hudsonmp10",
+    "calendar": "https://cal.com/hudsonmp"
+  },
+  "projects": {
+    "schoolassess": "https://schoolassess.vercel.app"
+  },
+  "organizations": {
+    "ucsd": "https://ucsd.edu",
+    "khan_academy": "https://www.khanacademy.org",
+    "cerebral_valley": "https://cerebralvalley.ai"
+  }
+}
+

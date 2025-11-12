@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{Series Convergence with Powers}
+\author{Hudson Mitchell-Pullman}
+\date{2025}
+
+\begin{document}
+
+\maketitle
+
+\noindent\textit{Problem source: Art of Problem Solving (AoPS)}
+
+\section*{Problem}
+
+Let $\{ a_n \}_{n=0}^{\infty}$ be a sequence of positive real numbers. Prove that if $\sum_{n=0}^{\infty} a_n$ converges, then so does
+\[\sum_{n=0}^{\infty} {a_n}^r,\]
+where $r$ is a positive integer.
+
+\section*{Solution}
+
+By the problem statement, we conclude that $r \geq 1$ since $1$ is the smallest positive integer.
+
+We begin by considering
+$$0< a_n\leq a_n^r \quad \forall a_n\geq1$$
+by the problem statement. However, we know that a sequence $a_n$ converges to zero $\iff \exists \epsilon > 0 \mid |a_n-L|<\epsilon$, where we set $L=0$. When we set $\epsilon=1$, we see that $0\leq a_k\leq 1$ beginning at some point $k$ and continuing onwards for all $n\geq k$.
+
+Since $a_n\leq1$ for all $n\geq k$, $a_n^r$ must also be less than or equal to $1$ for all $n\geq k$ since a positive real less than or equal to $1$ raised to a positive integer power will always be less than or equal to the original number before raising it to a power $r$.
+
+Therefore, we can conclude that
+$$\forall n\geq k, \quad 0<a_n^r\leq a_n\leq1.$$
+
+Finally, by the Series Comparison Test, we know that $\sum_{n=0}^{\infty} {a_n}^r$ must converge since $\sum_{n=0}^{\infty} a_n$ also converges from the given condition and $a_n^r\leq a_n$ as $n$ approaches $\infty$. We have now rigorously proved the original condition and are done. \quad $\blacksquare$
+
+\end{document}
+
