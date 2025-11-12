@@ -54,7 +54,6 @@
     "react": "^19",
     "react-day-picker": "latest",
     "react-dom": "^19",
-    "react-force-graph-3d": "^1.29.0",
     "react-hook-form": "latest",
     "react-resizable-panels": "latest",
     "recharts": "latest",
