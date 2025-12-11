@@ -100,4 +100,34 @@ which is our final answer in terms of $x$. $\\quad \\blacksquare$`,
     texFile: "integral-arctan.tex",
     fileUrl: "/math/integral-arctan",
   },
+  {
+    id: "orthogonal-curves",
+    title: "Orthogonal Curves",
+    date: "2025",
+    problem: `Find a set of curves that is orthogonal to the set $\\mathcal{F} = \\{y = kx^2 : k \\text{ is a constant}\\}$.`,
+    solution: `We let $\\mathcal{F}$ and $\\mathcal{G}$ denote a set of orthogonal curves, meaning that one or more of the curves in the sets intersect at a right angle.
+
+We let $\\mathcal{F}=\\{y=kx^2 :k \\text{ is a constant}\\}$. Since $k$ is a constant that depends on the curves in $\\mathcal{F}$, we want to express $k$ as a function of $y$ and $x$.
+
+We rearrange $y=kx^2$ in terms of $k$, giving us $$k=\\frac{y}{x^2}.$$ Next, we take the derivative of $y=kx^2$, giving us $$\\frac{dy}{dx}=2kx$$ by implicit differentiation. 
+
+Next, we make our substitution for $k$ (see above), giving us $$\\frac{dy}{dx}=\\frac{2y}{x}.$$ Next, we know the angle at the point of intersection of a curve's Normal is a right angle, meaning that to find the general equation for our orthogonal set, we should find a set $\\mathcal{G}$ that is normal at a minimum of one point to our set $\\mathcal{F}$. 
+
+To do this, we take the negative reciprocal of our slope $\\frac{dy}{dx}$. Since we have expressed $\\frac{dy}{dx}$ in terms of $x$ and $y$ above, we write $$\\frac{dy}{dx}=-\\frac{x}{2y}.$$
+
+We solve this first-order differential equation by separation of variables: 
+
+\\begin{align*}
+2ydy&=-xdx \\\\
+2\\int ydy&=-\\int xdx \\\\
+y^2&=-\\frac12x^2+C \\\\
+C&=y^2+\\frac12x^2 \\\\
+C&=2y^2+x^2 \\\\
+y&=\\sqrt{\\frac{C-x^2}{2}}
+\\end{align*} for a variable constant $C$.
+
+Therefore, because the set $\\mathcal{G} = \\{y=\\sqrt{\\frac{C-x^2}{2}}\\}$ is orthogonal to $\\mathcal{F}$ at a minimum of one point (because it is a set of curves that are normal to curves in $\\mathcal{F}$), we conclude that $$\\mathcal{G} = \\{y=\\sqrt{\\frac{C-x^2}{2}}\\}.$$ $\\quad \\blacksquare$`,
+    texFile: "orthogonal-curves.tex",
+    fileUrl: "/math/orthogonal-curves",
+  },
 ]
